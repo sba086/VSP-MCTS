@@ -51,16 +51,15 @@ import hoo
 
 
 """
-    @ Seydou
-    Scalable simulation time Monte Carlo Tree Search implementation for atari game.
-    Tree policy: UCB1
-    Default policy: Random selection
-    HOOT and PW used for continuous action and/or simulation periode spaces
+    Monte Carlo Tree Search with Variable Simulation Periods implementation for atari game.
+        Tree policy: UCB1
+        Default policy: Random selection
+        HOOT and PW used for continuous simulation periode spaces
 
-    Set DEPTH_MAX to reduce running time if max_episode_len is too big.
+    Set DEPTH_MAX to reduce running time.
 
     Run with:
-        python ata_dam_v*.py --num_sims BUDGET --n_episodes NUM_ITERATION
+        python mcts_ata.py  --env $GAME-v0 --n_episodes $NUM_EPISODES --num_sims $MAX_SIMULATIONS --reward-scale-factor $RSF
 
 """
 
