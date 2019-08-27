@@ -4,7 +4,7 @@ VSP-MCTS implementation for for Continuously Running Tasks.
 
     - Tree policy: UCB1
     - Default policy: Random selection
-    - Expesion: HOO with PW
+    - Expension: HOO with PW
  
 Run with python 2.7 and chainerrl
 
